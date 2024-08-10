@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function HomeContent() {
   return (
-    <main className="flex min-h-[calc(100vh-96px)] w-full items-center justify-center pt-5 md:px-20 md:pt-20 lg:pt-52 xl:px-60">
+    <main className="flex h-[calc(100vh-150px)] w-full items-center justify-center pt-5 md:px-20 md:pt-10 lg:pt-52 xl:px-60">
       <div className="mx-auto flex h-full w-full min-w-[240px] flex-col items-center justify-between gap-10 py-5 lg:flex-row lg:py-0">
         <section className="flex min-w-[240px] max-w-[520px] flex-col gap-2 text-center text-blue-300 sm:gap-4 lg:text-left">
           <h3 className="font-barlow text-lg tracking-wide sm:text-2xl sm:tracking-[4px]">
