@@ -40,7 +40,7 @@ function page({ searchParams }) {
         className="-z-10 object-cover object-top sm:hidden"
         placeholder="blur"
       />
-      <main className="px-5 pt-10 md:px-10 md:pt-20 lg:px-20 lg:pt-12">
+      <main className="px-5 pt-10 md:px-10 md:pt-20 lg:px-20 lg:pt-12 xl:px-44">
         <div className="flex justify-center gap-3 text-lg md:justify-start lg:text-2xl">
           <span className="font-bold text-gray-500">01</span>
           <h2 className="tracking-wider text-white">PICK YOUR DESTINATION</h2>

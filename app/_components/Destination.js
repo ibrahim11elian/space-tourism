@@ -10,8 +10,8 @@ function Destination({ destinationName }) {
   );
 
   return (
-    <section className="mt-7 flex flex-col items-center gap-7 sm:px-10 md:px-24 lg:mt-20 lg:gap-10 xl:flex-row xl:px-10">
-      <div className="relative my-3 aspect-square w-1/2 max-w-[24rem] transition-all duration-300 lg:basis-5/6">
+    <section className="mt-7 flex flex-col items-center gap-7 sm:px-10 md:px-24 lg:mt-20 lg:gap-16 xl:flex-row">
+      <div className="relative my-3 aspect-square h-full w-1/2 transition-all duration-300 xl:w-[60rem]">
         <Image
           fill
           src={destination.images.webp}
@@ -19,7 +19,7 @@ function Destination({ destinationName }) {
           className="object-cover"
         />
       </div>
-      <div className="flex flex-col items-center gap-7 lg:px-24 xl:items-start">
+      <div className="flex flex-col items-center gap-7 lg:pr-24 xl:items-start">
         <DestinationList />
         <h1 className="font-bellefair text-6xl uppercase text-white md:text-8xl lg:text-9xl">
           {destination.name}
