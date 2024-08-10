@@ -19,7 +19,7 @@ function Destination({ destinationName }) {
           className="object-cover"
         />
       </div>
-      <div className="flex flex-col items-center gap-7 lg:pr-24 xl:items-start">
+      <div className="flex flex-col items-center gap-7 xl:items-start xl:pr-24">
         <DestinationList />
         <h1 className="font-bellefair text-6xl uppercase text-white md:text-8xl lg:text-9xl">
           {destination.name}
